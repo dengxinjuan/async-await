@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deck Of Cards</title>
+    <style>
+    body{background-color: green;
+    position: relative;
+    font-size: large;}
+    button{background-color:orange;
+    position: absolute;
+    left:50%;
+    height:30px;}
+
+    #card{
+        margin-top: 12%;
+        left: 50%;
+        button:35px;
+        position: absolute;
+
+    }
+    #card>img{
+        position: absolute;
+        left:0;
+        rigth:0;
+        margin:auto
+    }
+    </style>
+</head>
+<body>
+
+    <div id="deck"></div>
+    
+    <button >Give Me A card!!!</button>
+
+    <div>Remaing Cards:<span id="left"></span></div>
+
+    <div id="card"></div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
